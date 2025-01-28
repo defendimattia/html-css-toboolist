@@ -110,6 +110,7 @@ span {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 15px;
+    line-height: 18px;
 }
 
 .check {
