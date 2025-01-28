@@ -71,6 +71,10 @@ header {
 /****** DOWN SECTION *****/
 /*************************/
 
+span {
+    display: inline-block;
+}
+
 .down-section {
     background-color: #FFFFFF;
     margin: 0 170px 0 170px;
@@ -81,5 +85,40 @@ header {
 .task-list {
     padding-top: 20px;
     margin-left: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task-mark-check {
+    color: #008000;
+    text-align: center;
+    margin-left: 50px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #008000;
+    display: inline-block;
+}
+
+.task-mark--not-check {
+    color: #800000;
+    text-align: center;
+    margin-left: 50px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #800000;
+    display: inline-block;
+}
+
+.task-flags {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    font-size: small;  
+    border-radius: 15px; 
+    color: #FFFFFF;
+    background-color: #14aaf5;
+    margin-left: 5px;
     font-weight: bold;
 }
