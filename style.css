@@ -15,15 +15,19 @@
 
 body {
     background-color: #f6f8f9;
+    font-family: Arial;
 }
 
 header {
     font-size: 20px;
-    font-family: Arial;
     height: 70px;
     background-color: #FFFFFF;
 
 }
+
+/*************************/
+/***** UPPER SECTION *****/
+/*************************/
 
 .header-logo {
     display: inline-block;
@@ -61,4 +65,21 @@ header {
     display: inline-block;
     color: #c4cbd0;
     border: 1px solid #c4cbd0;
+}
+
+/*************************/
+/****** DOWN SECTION *****/
+/*************************/
+
+.down-section {
+    background-color: #FFFFFF;
+    margin: 0 170px 0 170px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.task-list {
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
 }
