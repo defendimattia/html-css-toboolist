@@ -1,9 +1,31 @@
+
+/***************/
+/**** RESET ****/
+/***************/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
    }
 
+/****************/
+/***** BODY *****/
+/****************/
+
 body {
     background-color: #f6f8f9;
+}
+
+header {
+    font-size: 20px;
+    font-family: Arial;
+    height: 70px;
+    background-color: #FFFFFF;
+
+}
+
+.header-logo {
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
 }
