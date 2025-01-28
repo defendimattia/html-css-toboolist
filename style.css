@@ -44,17 +44,15 @@ header {
 }
 
 .upper-buttons {
-    height: 30px;
-    width: 75px;
+    padding: 5px 5px 5px 5px;
     text-align: center;
     font-size: small;  
     border-radius: 5px; 
-    padding-top: 5px;
     margin-top: 10px;
+    display: inline-block;
 }
 
 #upper-button1 {
-    display: inline-block;
     color: #FFFFFF;
     background-color: #14aaf5;
     margin-left: 30px;
@@ -62,7 +60,6 @@ header {
 }
 
 #upper-button2 {
-    display: inline-block;
     color: #c4cbd0;
     border: 1px solid #c4cbd0;
 }
@@ -80,6 +77,7 @@ span {
     margin: 0 170px 0 170px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    padding-bottom: 15px;
 }
 
 /*************************/
@@ -104,28 +102,23 @@ span {
     font-weight: bold;
 }
 
-.task-mark-check {
-    color: #008000;
+.task-mark {
     text-align: center;
     margin-left: 50px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 1px solid #008000;
     display: inline-block;
     margin-bottom: 15px;
 }
 
-.task-mark-not-check {
-    color: #800000;
-    text-align: center;
-    margin-left: 50px;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
+.check {
+    border: 1px solid #008000;
+    color: #008000;
+}
+.not-check {
     border: 1px solid #800000;
-    display: inline-block;
-    margin-bottom: 15px;
+    color: #800000;
 }
 
 .editorial {
