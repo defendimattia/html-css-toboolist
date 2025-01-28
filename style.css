@@ -82,11 +82,26 @@ span {
     border-bottom-left-radius: 5px;
 }
 
+/*************************/
+/****** TASK SECTION *****/
+/*************************/
+
 .task-list {
     padding-top: 20px;
     margin-left: 50px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.task-flag {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    font-size: small;  
+    border-radius: 15px; 
+    color: #FFFFFF;
+    margin-left: 5px;
+    font-weight: bold;
 }
 
 .task-mark-check {
@@ -98,9 +113,10 @@ span {
     border-radius: 50%;
     border: 1px solid #008000;
     display: inline-block;
+    margin-bottom: 15px;
 }
 
-.task-mark--not-check {
+.task-mark-not-check {
     color: #800000;
     text-align: center;
     margin-left: 50px;
@@ -109,16 +125,29 @@ span {
     border-radius: 50%;
     border: 1px solid #800000;
     display: inline-block;
+    margin-bottom: 15px;
 }
 
-.task-flags {
-    display: inline-block;
-    padding: 5px 15px 5px 15px;
-    text-align: center;
-    font-size: small;  
-    border-radius: 15px; 
-    color: #FFFFFF;
+.editorial {
     background-color: #14aaf5;
-    margin-left: 5px;
-    font-weight: bold;
+}
+
+.q1goals {
+    background-color: #ab5de6;
+}
+
+.recruiting {
+    background-color: #2cc6ab;
+}
+
+.mobile {
+    background-color: #ff9b00;
+}
+
+.website {
+    background-color: #ec4a9d;
+}
+
+.sales {
+    background-color: #a3d116;
 }
