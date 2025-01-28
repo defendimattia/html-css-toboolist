@@ -30,3 +30,35 @@ header {
     padding: 10px 0px 10px 10px;
     vertical-align: bottom;
 }
+
+.upper-section {
+    height: 50px;
+    background-color:  #FFFFFF;
+    margin: 40px 170px 2px 170px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.upper-buttons {
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    font-size: small;  
+    border-radius: 5px; 
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+#upper-button1 {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #14aaf5;
+    margin-left: 30px;
+    
+}
+
+#upper-button2 {
+    display: inline-block;
+    color: #c4cbd0;
+    border: 1px solid #c4cbd0;
+}
